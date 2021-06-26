@@ -1,0 +1,186 @@
+* {
+  font-family: "poppins"
+}
+
+#body-stuff{
+margin-top:75px;
+margin-bottom:100px;
+}
+
+#filter{
+  float: left;
+  min-height: 700px;
+  max-width: 600px;
+  background-color: rgba(6, 38, 34, 0.7);
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-left: 15%;
+  color:white;
+}
+
+#filter-title{
+  margin-bottom:50px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("contact-header2.svg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  margin-top:20px;
+   margin-left: 75px;
+  font-size:30px;
+  line-height:30px;
+  font-weight:bold;
+  margin-bottom:30px;
+ font-family:"poppins";
+  color:#2b5a4e;
+}
+.bullets{
+  list-style-type: square;
+  font-family: poppins;
+ font-size:25px;
+}
+.bullet-div{
+  margin-left: 125px;
+  margin-top:20px;
+  margin-right:50px;
+}
+.bullet-info{
+  margin-top:10px;
+  margin-bottom:20px;
+  width:500px;
+  font-family: poppins;
+}
+.bullets::marker{ 
+  color:blanchedalmond;
+  font-size: 30px; 
+  }
+  .bullets-two{
+    margin-left:50px;
+    list-style-type: circle;
+  font-family: poppins;
+  font-size: 20px;
+   margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .bullet-sub{
+    font-weight:bolder;
+  }
+
+  #contact-main{
+    width: 1000px;
+    height: auto;
+    padding: 5%;
+  background-color: rgba(6, 38, 34, 0.7);
+    border-radius: 50px 50px;
+  }
+
+#name-label{
+margin: 3%;
+height: 50px;
+width: 500px;
+border-radius: 50px 50px;
+outline: none;
+border: none;
+text-align: center;
+} 
+
+#mail-label{
+margin: 3%;
+height: 50px;
+width: 500px;
+border-radius: 50px 50px;
+outline: none;
+border: none;
+text-align: center;
+}
+
+#subject-label{
+margin: 3%;
+height: 50px;
+width: 500px;
+border-radius: 50px 50px;
+outline: none;
+border: none;
+text-align: center;
+}
+
+#text-label{
+margin: 3%;
+height: 200px;
+width: 500px;
+border-radius: 50px 50px;
+outline: none;
+border: none;
+text-align: center;
+}
+
+#submit-label{
+margin: 3%;
+height: 50px;
+width: 500px;
+border-radius: 50px 50px;
+outline: none;
+border: none;
+text-align: center;
+color: white;
+cursor: pointer;
+transition: background-color 0.6s ease;
+background-color: black;
+}
+#submit-label:hover{
+  color: black;
+  background-color: white;
+}
+#email a{
+  	color:  #f0f0f0;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  #contact-main{
+    margin: 40px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #contact-main{
+    width: auto;
+    height: auto;
+  }
+
+  #name-label, #mail-label, #subject-label, #submit-label{
+    height: 100px;
+    width: 300px;
+  }
+ #text-label{
+    height: 200px;
+    width: 300px;
+ }
+}
+
+@media only screen and (max-width: 450px) {
+  #contact-main{
+    padding: 5%;
+  }
+  #name-label, #mail-label, #subject-label, #submit-label{
+    height: 50px;
+    width: 200px;
+  }
+ #text-label{
+    height: 300px;
+    width: 200px;
+ }
+}
